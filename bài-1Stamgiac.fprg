@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Vanxuan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-25 10:05:40 AM"/>
+        <attribute name="created" value="VmFueHVhbjtYVUFOSFVORzsyMDE5LTAzLTA5OzA2OjUzOjU1IFBNOzI2NTE="/>
+        <attribute name="edited" value="VmFueHVhbjtYVUFOSFVORzsyMDE5LTAzLTA5OzA3OjIzOjQwIFBNOzE7Mjc1MQ=="/>
+        <attribute name="edited" value="QWRtaW47QURNSU47MjAxOS0wMy0yNTsxMDowNTo0MCBBTTsxOzIyMTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="canhday" type="Integer" array="False" size=""/>
+            <output expression="&quot;canhday n=&quot;" newline="True"/>
+            <input variable="canhday"/>
+            <declare name="chieucao" type="Integer" array="False" size=""/>
+            <output expression="&quot;chieucao m=&quot;" newline="True"/>
+            <input variable="chieucao"/>
+            <declare name="stamgiac" type="Integer" array="False" size=""/>
+            <assign variable="stamgiac" expression="canhday*chieucao/2"/>
+            <output expression="&quot;stamgiac=&quot;&amp;stamgiac" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
